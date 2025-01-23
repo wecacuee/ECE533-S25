@@ -1,0 +1,38 @@
+url: https://vikasdhiman.info
+baseurl: /ECE533-S25
+remote_theme:  samarsault/plainwhite-jekyll
+title: Advanced Robotics (ECE533-S25) at the University of Maine
+author: Vikas Dhiman
+description: Advanced  Robots (ECE533-S25) at the University of Maine
+show_excerpts: true
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+paginate: 10
+
+
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-remote-theme
+
+plainwhite:
+  name: Advanced Robotics (ECE533)
+  tagline: |
+     Perception, Planning and Control for Mobile Robots
+
+  sitemap: true
+
+  search: true
+
+  html_lang: "en"
+
+  navigation:
+    - title: Syllabus
+      url: "https://docs.google.com/document/d/e/2PACX-1vQW1QMosGNoMuqx0COvS4Bb7dTO0N512w9pr3zF32CL3NLz-G5iYGBGyDIti-Y6PZAjRCSB8ee9DGK3/pub"
+    - title: Schedule
+      url: "https://docs.google.com/spreadsheets/d/17DEkoTYX45PsGEVNE1MVrpgQe4J6TApdEk5-kw4bVZk/edit?usp=sharing"
+
+  portfolio_image: images/jetbot.jpg
